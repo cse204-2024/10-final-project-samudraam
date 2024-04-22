@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/09-todo-react-10-final-project-samudraam/static/css/main.3a55b1f1.css",
+    "main.js": "/09-todo-react-10-final-project-samudraam/static/js/main.77d2c4e3.js",
+    "static/media/riding2.jpeg": "/09-todo-react-10-final-project-samudraam/static/media/riding2.453d3539d251e2eaadb4.jpeg",
+    "static/media/riding1.jpeg": "/09-todo-react-10-final-project-samudraam/static/media/riding1.09e15697613cf46b46a5.jpeg",
+    "static/media/riding5.jpeg": "/09-todo-react-10-final-project-samudraam/static/media/riding5.ffbfdc3555e94aefbab9.jpeg",
+    "static/media/riding4.jpeg": "/09-todo-react-10-final-project-samudraam/static/media/riding4.27c7f8fb4f61517bf067.jpeg",
+    "static/media/riding3.jpeg": "/09-todo-react-10-final-project-samudraam/static/media/riding3.ad9a107908f7ef7c5285.jpeg",
+    "static/media/logo.png": "/09-todo-react-10-final-project-samudraam/static/media/logo.ae96feadc216d11bdcfc.png",
+    "index.html": "/09-todo-react-10-final-project-samudraam/index.html",
+    "main.3a55b1f1.css.map": "/09-todo-react-10-final-project-samudraam/static/css/main.3a55b1f1.css.map",
+    "main.77d2c4e3.js.map": "/09-todo-react-10-final-project-samudraam/static/js/main.77d2c4e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a55b1f1.css",
+    "static/js/main.77d2c4e3.js"
+  ]
+}
