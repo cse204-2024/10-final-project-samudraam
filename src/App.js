@@ -1,21 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+import Home from "./Home";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <h2>Notes</h2>
-        <ul>
-          <li>Use CTRL+C or CMD+C to stop your React server.</li>
-        </ul>
-      </header>
-    </div>
+    <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+        <Footer />
+    </Router>
   );
-}
+};
 
 export default App;
