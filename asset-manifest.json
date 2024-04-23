@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/10-final-project-samudraam/static/css/main.7f029dc8.css",
-    "main.js": "/10-final-project-samudraam/static/js/main.48e36d4d.js",
+    "main.css": "/10-final-project-samudraam/static/css/main.7a08d2d9.css",
+    "main.js": "/10-final-project-samudraam/static/js/main.cdb44475.js",
+    "static/media/goldhonda.png": "/10-final-project-samudraam/static/media/goldhonda.87bdbbc22c4ccb2d4f11.png",
     "static/media/riding2.jpeg": "/10-final-project-samudraam/static/media/riding2.453d3539d251e2eaadb4.jpeg",
+    "static/media/RevRide.png": "/10-final-project-samudraam/static/media/RevRide.481e757b322b7f3f1289.png",
     "static/media/riding1.jpeg": "/10-final-project-samudraam/static/media/riding1.09e15697613cf46b46a5.jpeg",
     "static/media/ducati-Scrambler_Icon-2021.jpg": "/10-final-project-samudraam/static/media/ducati-Scrambler_Icon-2021.cee998a7cbea54d04cd1.jpg",
     "static/media/ktm-adventure-1290-2020.jpg": "/10-final-project-samudraam/static/media/ktm-adventure-1290-2020.837d65b5ef60a88e739f.jpg",
@@ -13,16 +15,15 @@
     "static/media/honda-Rebel-2022.jpg": "/10-final-project-samudraam/static/media/honda-Rebel-2022.14cacf339cfcd55ea621.jpg",
     "static/media/yamaha-xsr900-2024 2.jpg": "/10-final-project-samudraam/static/media/yamaha-xsr900-2024 2.82fc55ca77c115b96204.jpg",
     "static/media/ninja-h2r-2015 2.jpg": "/10-final-project-samudraam/static/media/ninja-h2r-2015 2.b5c38af85b6f06bd1614.jpg",
-    "static/media/honda-goldwing-2024.jpg": "/10-final-project-samudraam/static/media/honda-goldwing-2024.54ca4bb60494570ee710.jpg",
     "static/media/honda-africa_twin-2021 2.jpg": "/10-final-project-samudraam/static/media/honda-africa_twin-2021 2.b85f3fbb3a2f3166eeb5.jpg",
     "static/media/triumph-Bonneville_T120-2016.jpg": "/10-final-project-samudraam/static/media/triumph-Bonneville_T120-2016.022db67c093dc4a25e2f.jpg",
     "static/media/yamaha-YZF-R1-2024 2.jpg": "/10-final-project-samudraam/static/media/yamaha-YZF-R1-2024 2.987311fd05b499cbc014.jpg",
     "index.html": "/10-final-project-samudraam/index.html",
-    "main.7f029dc8.css.map": "/10-final-project-samudraam/static/css/main.7f029dc8.css.map",
-    "main.48e36d4d.js.map": "/10-final-project-samudraam/static/js/main.48e36d4d.js.map"
+    "main.7a08d2d9.css.map": "/10-final-project-samudraam/static/css/main.7a08d2d9.css.map",
+    "main.cdb44475.js.map": "/10-final-project-samudraam/static/js/main.cdb44475.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f029dc8.css",
-    "static/js/main.48e36d4d.js"
+    "static/css/main.7a08d2d9.css",
+    "static/js/main.cdb44475.js"
   ]
 }
