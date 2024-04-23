@@ -32,6 +32,7 @@ const RentalBike = () => {
     }
   }, [motorcycle]);
 
+  //why is there like 3 api calls
   const fetchMotorcycleDetails = async (bike) => {
     setIsLoading(true);
     try {
@@ -43,7 +44,11 @@ const RentalBike = () => {
           headers: { "X-Api-Key": "1vytly6otqIhYTudLZLjJg==c3ffjpXUbZeGSOJk" },
         }
       );
-      console.log();
+      console.log(
+        `https://api.api-ninjas.com/v1/motorcycles?make=${
+          bike.make
+        }&model=${encodeURIComponent(bike.model)}&year=${bike.year}`
+      );
       if (!response.ok) throw new Error("Failed to fetch");
       const data = await response.json();
       setMotorcycleDetails(data[0]);
@@ -55,6 +60,7 @@ const RentalBike = () => {
     }
   };
 
+  //make it iterable as an array
   const items = motorcycleDetails
     ? Object.entries(motorcycleDetails).map(([key, value]) => ({
         key: key.charAt(0).toUpperCase() + key.slice(1).replace(/_/g, " "),

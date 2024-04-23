@@ -3,7 +3,7 @@ import "./Motorcyles.css";
 import img1 from "./bikes/ducati-Scrambler_Icon-2021.jpg";
 import img2 from "./bikes/honda-Rebel-2022.jpg";
 import img3 from "./bikes/honda-africa_twin-2021 2.jpg";
-import img4 from "./bikes/honda-goldwing-2024.jpg";
+import img4 from "./bikes/goldhonda.png";
 import img5 from "./bikes/ktm-adventure-1290-2020.jpg";
 import img6 from "./bikes/ninja-h2r-2015 2.jpg";
 import img7 from "./bikes/triumph-Bonneville_T120-2016.jpg";
@@ -44,30 +44,22 @@ const Motorcycles = () => {
     },
     {
       imageSrc: img4,
-      name: "2024 Honda Goldwing ",
+      name: "1983 Honda Goldwing ",
       price: "$50.00 / day",
       make: "honda",
       model: "goldwing",
-      year: "2024",
+      year: "1983",
     },
     {
       imageSrc: img5,
       name: "2020 KTM Adventure 1290",
       price: "$50.00 / day",
       make: "KTM",
-      model: "adventure",
-      year: "1290",
+      model: "1290 Super Adventure R",
+      year: "2020",
     },
     {
       imageSrc: img6,
-      name: "2020 KTM Adventure 1290",
-      price: "$50.00 / day",
-      make: "KTM",
-      model: "adventure",
-      year: "1290",
-    },
-    {
-      imageSrc: img7,
       name: "2015 Kawasaki Ninja H2R",
       price: "$100.00 / day",
       make: "Kawasaki",
@@ -75,20 +67,28 @@ const Motorcycles = () => {
       year: "2015",
     },
     {
+      imageSrc: img7,
+      name: "2016 Triumph Bonneville",
+      price: "$100.00 / day",
+      make: "triumph",
+      model: "Bonneville",
+      year: "2016",
+    },
+    {
       imageSrc: img8,
-      name: "2024 Yamaha YZF R1",
+      name: "2020 Yamaha YZF R1",
       price: "$100.00 / day",
       make: "Yamaha",
-      model: "YZF R1",
-      year: "2024",
+      model: "YZF-R1",
+      year: "2020",
     },
     {
       imageSrc: img9,
-      name: "2024 Yamaha XSR900",
+      name: "2022 Yamaha XSR900",
       price: "$90.00 / day",
       make: "Yamaha",
       model: "XSR900",
-      year: "2024",
+      year: "2022",
     },
   ];
 
