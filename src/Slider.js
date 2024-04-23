@@ -28,8 +28,8 @@ const Slider = ({ imageUrls }) => {
     <div className="slider-container">
       <div className="slider-header">
         <img src={logo} alt="Logo" className="slider-logo" />
-        <h1>RevRide</h1>
-        <p>Rev Ride Rumble</p>
+        <h1 className="slider-h1">RevRide</h1>
+        <p className="slider-p">Rev Ride Rumble</p>
       </div>
       <div className="slider">
         <div className="slider-overlay"></div>

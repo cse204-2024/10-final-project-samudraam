@@ -1,0 +1,132 @@
+.product-details {
+  display: flex;
+  gap: 20px;
+  max-width: 1037px;
+  margin: 29px auto 0;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .product-details {
+    flex-direction: column;
+    max-width: 100%;
+  }
+}
+
+.product-overview {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .product-overview {
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.product-header {
+  color: black;
+}
+
+.product-title {
+  font-size: 30px;
+}
+
+.product-price {
+  margin-top: 27px;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+}
+
+.product-image {
+  width: 100%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.rent-button {
+  align-self: center;
+  background-color: #fff;
+  border: 3px solid #c84b31;
+  border-radius: 7px;
+  color: #c84b31;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 33px;
+  max-width: 100%;
+  padding: 17px 60px;
+  width: 281px;
+}
+
+@media (max-width: 991px) {
+  .rent-button {
+    padding: 0 20px;
+  }
+}
+
+.product-info {
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 7px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 20px;
+  width: 50%;
+}
+
+@media (max-width: 991px) {
+  .product-info {
+    margin-top: 40px;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.spec-sheet-title {
+  align-self: center;
+  font-family: Orbitron, sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.spec-sheet-divider {
+  background-color: #000;
+  border: none;
+  height: 1px;
+  margin-top: 11px;
+}
+
+.spec-sheet-item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 17px;
+  padding: 0 20px;
+}
+
+.spec-sheet-item-title {
+  align-self: flex-start;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-align: center;
+}
+
+.spec-sheet-item-list {
+  align-self: flex-end;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.48px;
+  margin-top: 15px;
+}
+
+.spec-sheet-item-key {
+  font-weight: 700;
+}

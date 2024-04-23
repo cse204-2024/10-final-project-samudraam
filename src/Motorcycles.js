@@ -9,12 +9,14 @@ import img6 from "./bikes/ninja-h2r-2015 2.jpg";
 import img7 from "./bikes/triumph-Bonneville_T120-2016.jpg";
 import img8 from "./bikes/yamaha-YZF-R1-2024 2.jpg";
 import img9 from "./bikes/yamaha-xsr900-2024 2.jpg";
+import { useNavigate } from "react-router-dom";
 
 const Motorcycles = () => {
   /*PLEASE NOTE, this contains the info i will send to the api,
   thats why i needed to create data to query server:<,
   also api does not come with image, hence my struggle!
   */
+
   const motorcycleData = [
     {
       imageSrc: img1,
@@ -90,7 +92,15 @@ const Motorcycles = () => {
     },
   ];
 
-  //manipulate dat hoe
+  //using useNavigate to send data to rentalBike
+  const navigate = useNavigate();
+
+  const handleRentClick = (motorcycle) => {
+    console.log(motorcycle);
+    //send it to rental bike
+    navigate("/Rental", { state: { motorcycle } });
+  };
+
   const MotorcycleCard = ({ motorcycle }) => (
     <div className="motorcycle-card">
       <img
@@ -100,13 +110,18 @@ const Motorcycles = () => {
       />
       <div className="motorcycle-name">{motorcycle.name}</div>
       <div className="motorcycle-price">{motorcycle.price}</div>
-      <button className="rent-button">Rent</button>
+      <button
+        className="rent-button"
+        onClick={() => handleRentClick(motorcycle)}
+      >
+        Rent
+      </button>
     </div>
   );
 
   return (
     <div>
-      <main>
+      <main className="main-motor">
         <h1 className="explore-heading">Explore our Bikes</h1>
         <div className="spacer-container">
           <div className="spacer">
