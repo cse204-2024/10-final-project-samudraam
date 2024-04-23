@@ -1,14 +1,22 @@
 .footer {
-  background-color: #191919; 
+  background-color: #191919;
   color: #c84b31;
   padding: 20px 0;
   font-size: 16px;
 }
 
+.footer p {
+  color: #ffffff;
+}
+
+.footer p:hover {
+  color: #ecdbba;
+}
+
 .footer-sec {
   display: flex;
-  flex-wrap: wrap; 
-  justify-content: space-around; 
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: start;
   padding: 20px;
 }
