@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/09-todo-react-10-final-project-samudraam/static/css/main.ce8744ac.css",
-    "main.js": "/09-todo-react-10-final-project-samudraam/static/js/main.8ea51b34.js",
-    "static/media/riding2.jpeg": "/09-todo-react-10-final-project-samudraam/static/media/riding2.453d3539d251e2eaadb4.jpeg",
-    "static/media/riding1.jpeg": "/09-todo-react-10-final-project-samudraam/static/media/riding1.09e15697613cf46b46a5.jpeg",
-    "static/media/ducati-Scrambler_Icon-2021.jpg": "/09-todo-react-10-final-project-samudraam/static/media/ducati-Scrambler_Icon-2021.cee998a7cbea54d04cd1.jpg",
-    "static/media/ktm-adventure-1290-2020.jpg": "/09-todo-react-10-final-project-samudraam/static/media/ktm-adventure-1290-2020.837d65b5ef60a88e739f.jpg",
-    "static/media/riding5.jpeg": "/09-todo-react-10-final-project-samudraam/static/media/riding5.ffbfdc3555e94aefbab9.jpeg",
-    "static/media/riding4.jpeg": "/09-todo-react-10-final-project-samudraam/static/media/riding4.27c7f8fb4f61517bf067.jpeg",
-    "static/media/riding3.jpeg": "/09-todo-react-10-final-project-samudraam/static/media/riding3.ad9a107908f7ef7c5285.jpeg",
-    "static/media/logo.png": "/09-todo-react-10-final-project-samudraam/static/media/logo.ae96feadc216d11bdcfc.png",
-    "static/media/honda-Rebel-2022.jpg": "/09-todo-react-10-final-project-samudraam/static/media/honda-Rebel-2022.14cacf339cfcd55ea621.jpg",
-    "static/media/yamaha-xsr900-2024 2.jpg": "/09-todo-react-10-final-project-samudraam/static/media/yamaha-xsr900-2024 2.82fc55ca77c115b96204.jpg",
-    "static/media/ninja-h2r-2015 2.jpg": "/09-todo-react-10-final-project-samudraam/static/media/ninja-h2r-2015 2.b5c38af85b6f06bd1614.jpg",
-    "static/media/honda-goldwing-2024.jpg": "/09-todo-react-10-final-project-samudraam/static/media/honda-goldwing-2024.54ca4bb60494570ee710.jpg",
-    "static/media/honda-africa_twin-2021 2.jpg": "/09-todo-react-10-final-project-samudraam/static/media/honda-africa_twin-2021 2.b85f3fbb3a2f3166eeb5.jpg",
-    "static/media/triumph-Bonneville_T120-2016.jpg": "/09-todo-react-10-final-project-samudraam/static/media/triumph-Bonneville_T120-2016.022db67c093dc4a25e2f.jpg",
-    "static/media/yamaha-YZF-R1-2024 2.jpg": "/09-todo-react-10-final-project-samudraam/static/media/yamaha-YZF-R1-2024 2.987311fd05b499cbc014.jpg",
-    "index.html": "/09-todo-react-10-final-project-samudraam/index.html",
-    "main.ce8744ac.css.map": "/09-todo-react-10-final-project-samudraam/static/css/main.ce8744ac.css.map",
-    "main.8ea51b34.js.map": "/09-todo-react-10-final-project-samudraam/static/js/main.8ea51b34.js.map"
+    "main.css": "/10-final-project-samudraam/static/css/main.ce8744ac.css",
+    "main.js": "/10-final-project-samudraam/static/js/main.6598f340.js",
+    "static/media/riding2.jpeg": "/10-final-project-samudraam/static/media/riding2.453d3539d251e2eaadb4.jpeg",
+    "static/media/riding1.jpeg": "/10-final-project-samudraam/static/media/riding1.09e15697613cf46b46a5.jpeg",
+    "static/media/ducati-Scrambler_Icon-2021.jpg": "/10-final-project-samudraam/static/media/ducati-Scrambler_Icon-2021.cee998a7cbea54d04cd1.jpg",
+    "static/media/ktm-adventure-1290-2020.jpg": "/10-final-project-samudraam/static/media/ktm-adventure-1290-2020.837d65b5ef60a88e739f.jpg",
+    "static/media/riding5.jpeg": "/10-final-project-samudraam/static/media/riding5.ffbfdc3555e94aefbab9.jpeg",
+    "static/media/riding4.jpeg": "/10-final-project-samudraam/static/media/riding4.27c7f8fb4f61517bf067.jpeg",
+    "static/media/riding3.jpeg": "/10-final-project-samudraam/static/media/riding3.ad9a107908f7ef7c5285.jpeg",
+    "static/media/logo.png": "/10-final-project-samudraam/static/media/logo.ae96feadc216d11bdcfc.png",
+    "static/media/honda-Rebel-2022.jpg": "/10-final-project-samudraam/static/media/honda-Rebel-2022.14cacf339cfcd55ea621.jpg",
+    "static/media/yamaha-xsr900-2024 2.jpg": "/10-final-project-samudraam/static/media/yamaha-xsr900-2024 2.82fc55ca77c115b96204.jpg",
+    "static/media/ninja-h2r-2015 2.jpg": "/10-final-project-samudraam/static/media/ninja-h2r-2015 2.b5c38af85b6f06bd1614.jpg",
+    "static/media/honda-goldwing-2024.jpg": "/10-final-project-samudraam/static/media/honda-goldwing-2024.54ca4bb60494570ee710.jpg",
+    "static/media/honda-africa_twin-2021 2.jpg": "/10-final-project-samudraam/static/media/honda-africa_twin-2021 2.b85f3fbb3a2f3166eeb5.jpg",
+    "static/media/triumph-Bonneville_T120-2016.jpg": "/10-final-project-samudraam/static/media/triumph-Bonneville_T120-2016.022db67c093dc4a25e2f.jpg",
+    "static/media/yamaha-YZF-R1-2024 2.jpg": "/10-final-project-samudraam/static/media/yamaha-YZF-R1-2024 2.987311fd05b499cbc014.jpg",
+    "index.html": "/10-final-project-samudraam/index.html",
+    "main.ce8744ac.css.map": "/10-final-project-samudraam/static/css/main.ce8744ac.css.map",
+    "main.6598f340.js.map": "/10-final-project-samudraam/static/js/main.6598f340.js.map"
   },
   "entrypoints": [
     "static/css/main.ce8744ac.css",
-    "static/js/main.8ea51b34.js"
+    "static/js/main.6598f340.js"
   ]
 }
