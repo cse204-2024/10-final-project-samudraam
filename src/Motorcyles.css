@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.explore-heading {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+  color: #000;
+}
+
+.spacer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.spacer {
+  border-radius: 7px;
+  background-color: #1f1e1e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 24px 68px;
+}
+
+.filter-bar {
+  background-color: #fff;
+  width: 0.5vw;
+  height: 0.7vh;
+  flex-grow: 1;
+  margin: 0 2vw;
+}
+
+.motorcycle-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 52px;
+  max-width: 1100px;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.motorcycle-card {
+  border-radius: 7px;
+  border: 2px solid #000;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  padding: 8px 23px 29px;
+  width: calc(33.3333% - 20px);
+  box-sizing: border-box;
+}
+
+@media (max-width: 800px) {
+  .motorcycle-card {
+    width: calc(50% - 20px); 
+  }
+}
+
+@media (max-width: 500px) {
+  .motorcycle-card {
+    width: calc(100% - 20px); 
+  }
+}
+.motorcycle-image {
+  object-fit: auto;
+  object-position: center;
+  width: 200px;
+  max-width: 100%;
+}
+
+.motorcycle-name {
+  color: #2d4263;
+  letter-spacing: 0.8px;
+  font: 20px "Roboto", sans-serif;
+}
+
+.motorcycle-price {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-top: 17px;
+}
+
+.rent-button {
+  font-family: "Roboto", sans-serif;
+  border-radius: 7px;
+  border: 3px solid #c84b31;
+  background-color: #fff;
+  align-self: stretch;
+  margin-top: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c84b31;
+  padding: 14px 60px;
+}
+
+.rent-button:hover {
+  color: white;
+  background-color: #c84b31;
+}
+
+@media (max-width: 991px) {
+  .rent-button {
+    padding: 0 20px;
+  }
+}

@@ -29,7 +29,7 @@ const Slider = ({ imageUrls }) => {
       <div className="slider-header">
         <img src={logo} alt="Logo" className="slider-logo" />
         <h1>RevRide</h1>
-        <p>rev ride rumble</p>
+        <p>Rev Ride Rumble</p>
       </div>
       <div className="slider">
         <div className="slider-overlay"></div>
