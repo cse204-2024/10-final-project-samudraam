@@ -98,7 +98,7 @@ const Motorcycles = () => {
   const handleRentClick = (motorcycle) => {
     console.log(motorcycle);
     //send it to rental bike
-    navigate("/Rental", { state: { motorcycle } });
+    navigate("/10-final-project-samudraam/rental", { state: { motorcycle } });
   };
 
   const MotorcycleCard = ({ motorcycle }) => (

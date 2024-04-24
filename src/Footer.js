@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-sec sec-padding">
         <div className="sb-footer-links">
           <h4>For Business</h4>
-          <a href="/Motorcycles">
+          <a href="/10-final-project-samudraam/motorcycles">
             <p>Our Services</p>
           </a>
           <a href="https://youtu.be/SOxutBMCOUc?si=DL6X6JDZW1rMChD7">
@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
         <div className="sb-footer-links">
           <h4>Company</h4>
-          <a href="/about">
+          <a href="/10-final-project-samudraam/about">
             <p>About Us</p>
           </a>
           <a href="https://youtu.be/F6jWppEDoV8?si=iT2dQSMgaUXZy-XY">
