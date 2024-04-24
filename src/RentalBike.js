@@ -44,6 +44,7 @@ const RentalBike = () => {
           headers: { "X-Api-Key": "1vytly6otqIhYTudLZLjJg==c3ffjpXUbZeGSOJk" },
         }
       );
+      //does this exist in the api (sanity check)
       console.log(
         `https://api.api-ninjas.com/v1/motorcycles?make=${
           bike.make
@@ -97,7 +98,12 @@ const RentalBike = () => {
             alt={motorcycle?.name || "Motorcycle"}
             className="product-image"
           />
-          <button className="rent-button">Rent</button>
+          <button
+            className="rent-button"
+            onClick={() => alert("This feature is not available yet!")}
+          >
+            Rent
+          </button>
         </section>
         <div className="product-info">
           <h2 className="spec-sheet-title">Motorcycle Specifications</h2>
