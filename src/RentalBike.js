@@ -1,6 +1,7 @@
 import "./RentalBike.css";
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import Modal from "./RentModal";
 
 const SpecSheetItem = ({ title, items }) => (
   <>
@@ -24,6 +25,7 @@ const RentalBike = () => {
   const [motorcycleDetails, setMotorcycleDetails] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const motorcycle = location.state?.motorcycle;
 
   useEffect(() => {
@@ -61,14 +63,13 @@ const RentalBike = () => {
     }
   };
 
-  //make it iterable as an array
+  //make it iterable as an array (with some regex to clean input)
   const items = motorcycleDetails
     ? Object.entries(motorcycleDetails).map(([key, value]) => ({
         key: key.charAt(0).toUpperCase() + key.slice(1).replace(/_/g, " "),
         value: value,
       }))
     : [];
-  console.log(items);
   if (!motorcycle) {
     return <div>No motorcycle selected.</div>;
   }
@@ -98,10 +99,7 @@ const RentalBike = () => {
             alt={motorcycle?.name || "Motorcycle"}
             className="product-image"
           />
-          <button
-            className="rent-button"
-            onClick={() => alert("This feature is not available yet!")}
-          >
+          <button className="rent-button" onClick={() => setIsModalOpen(true)}>
             Rent
           </button>
         </section>
@@ -110,6 +108,11 @@ const RentalBike = () => {
           <SpecSheetItem title="Specifications" items={items} />
         </div>
       </main>
+      <Modal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        price={motorcycle?.price || "0.00"}
+      />
     </>
   );
 };
