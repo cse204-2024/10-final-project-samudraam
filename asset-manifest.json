@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/10-final-project-samudraam/static/css/main.7ba2400a.css",
-    "main.js": "/10-final-project-samudraam/static/js/main.0e099976.js",
+    "main.css": "/10-final-project-samudraam/static/css/main.097cb7e4.css",
+    "main.js": "/10-final-project-samudraam/static/js/main.b5bfa01a.js",
     "static/media/goldhonda.png": "/10-final-project-samudraam/static/media/goldhonda.87bdbbc22c4ccb2d4f11.png",
     "static/media/riding2.jpeg": "/10-final-project-samudraam/static/media/riding2.453d3539d251e2eaadb4.jpeg",
     "static/media/RevRide.png": "/10-final-project-samudraam/static/media/RevRide.481e757b322b7f3f1289.png",
@@ -19,11 +19,11 @@
     "static/media/triumph-Bonneville_T120-2016.jpg": "/10-final-project-samudraam/static/media/triumph-Bonneville_T120-2016.022db67c093dc4a25e2f.jpg",
     "static/media/yamaha-YZF-R1-2024 2.jpg": "/10-final-project-samudraam/static/media/yamaha-YZF-R1-2024 2.987311fd05b499cbc014.jpg",
     "index.html": "/10-final-project-samudraam/index.html",
-    "main.7ba2400a.css.map": "/10-final-project-samudraam/static/css/main.7ba2400a.css.map",
-    "main.0e099976.js.map": "/10-final-project-samudraam/static/js/main.0e099976.js.map"
+    "main.097cb7e4.css.map": "/10-final-project-samudraam/static/css/main.097cb7e4.css.map",
+    "main.b5bfa01a.js.map": "/10-final-project-samudraam/static/js/main.b5bfa01a.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ba2400a.css",
-    "static/js/main.0e099976.js"
+    "static/css/main.097cb7e4.css",
+    "static/js/main.b5bfa01a.js"
   ]
 }
